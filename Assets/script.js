@@ -44,14 +44,13 @@ function writePassword() {
     }  
 
 
-  console.log(capital_result)
 // calls the generatePassword() function
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
   passwordText.value = password;
   
 
-// generates password using createarray
+// generates password using
   function generatePassword() {
     var library = createArray();
     var new_string = '';
